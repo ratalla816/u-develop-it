@@ -4,7 +4,7 @@
   "description": "class activity",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/ratalla816/u-develop-it/issues"
   },
-  "homepage": "https://github.com/ratalla816/u-develop-it#readme"
+  "homepage": "https://github.com/ratalla816/u-develop-it#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^27.1.1"
+  }
 }
