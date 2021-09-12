@@ -23,10 +23,19 @@ const db = mysql.createConnection(
     console.log('Connected to the election database.')
   );
 
+// GET a single candidate
+// db.query(`SELECT * FROM candidates WHERE id = 1`, (err, row) => {
+//     if (err) {
+//       console.log(err);
+//     }
+//     console.log(row);
+//   });
+  
 //  This method runs the SQL query and executes the callback with all the resulting rows that match the query. 
-db.query(`SELECT * FROM candidates`, (err, rows) => {
-    console.log(rows);
-  });
+// generates an array with all the candidates
+// db.query(`SELECT * FROM candidates`, (err, rows) => {
+//     console.log(rows);
+//   });
 
 // Default response for any other request (Not Found)
 app.use((req, res) => {
