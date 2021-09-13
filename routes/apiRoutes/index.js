@@ -6,3 +6,6 @@ router.use(require('./candidateRoutes'));
 module.exports = router;
 
 router.use(require('./partyRoutes'));
+
+router.use(require('./voterRoutes'));
+
