@@ -76,7 +76,7 @@
   - [Testing](#testing)
   - [Contact](#contact)
   ## Screenshot
-  ![Screenshot](./dist/assets/images/screenshot.png)
+  ![Screenshot](/dist/assets/images/screenshot.png)
 
   # Acknowledgements
   Rob Atalla
